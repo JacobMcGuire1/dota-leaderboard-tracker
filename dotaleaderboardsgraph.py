@@ -1,8 +1,6 @@
 import requests
-from bs4 import BeautifulSoup
 from requests_html import HTMLSession
 import json
-import matplotlib.pyplot as plt
 import time
 
 def getPlayerList(region):
@@ -33,12 +31,7 @@ def getPlayerList(region):
             ranktext = rank.text
             if (ranktext is not ""):
                 ranknum = int(ranktext)
-
-        #if (ranknum <= 50):
-           # print(teamtext + nametext + ranktext)
-
         playerlist.append((ranknum, teamtext, nametext))
-
     return playerlist
 
 playerlist = getPlayerList("europe")
@@ -46,13 +39,3 @@ json = json.dumps(playerlist)
 f = open("./europe/" + str(time.time()) + ".json", "w")
 f.write(json)
 f.close()
-
-#plt.plot(1, playerlist[0][0])#, label=(playerlist[0][1] + playerlist[0][2]))
-#plt.plot(2, playerlist[1][0])#, label=(playerlist[1][1] + playerlist[1][2]))
-#plt.plot(3, playerlist[2][0])#, label=(playerlist[2][1] + playerlist[2][2]))
-
-""" plt.plot([10,9,8], [1, 2, 3])
-plt.ylabel('Rank')
-plt.xlabel('Time')
-plt.show()
-         """
