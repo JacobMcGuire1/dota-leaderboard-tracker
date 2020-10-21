@@ -62,7 +62,7 @@ def addPointsToDict(ranklist, time, linedict):
 
 
 linedict = getLeaderboardPortion(0, 25)
-#linedict = getPlayers(["dendi", "norv", "manolo", "hellshock"])
+#linedict = getPlayers(["dendi", "norv", "manolo", "hellshock", "5up"])
 
 
 plt.ylabel('Rank')
@@ -72,20 +72,14 @@ for x in list(linedict.keys()):
     rankpairs = linedict[x]
     ranks = []
     times = []
-    latest = 0.0
-    latestrank = 0
-    for rank, time in rankpairs:
-        timestamp = float(time)
-        
-        if (timestamp > latest):
-            latest = timestamp
-            latestrank = rank
-
-        ranks.append(rank)
-        times.append(datetime.datetime.fromtimestamp(timestamp))
-    if (latestrank != -1):
+    rankpairs.sort(key=lambda pair : pair[1])
+    ranks = [pair[0] for pair in rankpairs]
+    times = [datetime.datetime.fromtimestamp(float(pair[1])) for pair in rankpairs]
+    if (len(rankpairs) > 0):
         plt.plot(times, ranks,  label=x)
-        plt.annotate(str(latestrank) + ": " + x, xy = (times[-1], ranks[-1]),  xytext = (times[-1], 0.15 + ranks[-1]))
+        plt.annotate(str(ranks[0]) + ": " + x, xy = (times[0], ranks[0]),  xytext = (times[0], 0.15 + ranks[0]))
+        if (len(rankpairs) > 1):
+            plt.annotate(str(ranks[-1]), xy = (times[-1], ranks[-1]),  xytext = (times[-1], 0.15 + ranks[-1]))
 
 #date_form = DateFormatter("%m-%d")
 #\fig, ax = plt.subplots()
