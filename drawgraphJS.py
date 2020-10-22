@@ -1,6 +1,5 @@
-
 import json
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt, mpld3
 import os
 import datetime
 from _datetime import date
@@ -65,7 +64,7 @@ def drawLines(linedict):
         rankpairs.sort(key=lambda pair : pair[1])
         rankpairs = [pair for pair in rankpairs if (pair[0] != -1)]
         ranks = [pair[0] for pair in rankpairs]
-        times = [datetime.datetime.fromtimestamp(float(pair[1])) for pair in rankpairs]
+        times = [(datetime.datetime.fromtimestamp(float(pair[1]))).timestamp() for pair in rankpairs]
         if (len(rankpairs) > 0):
             plt.plot(times, ranks,  label=x)
             plt.annotate(str(ranks[0]) + ": " + x, xy = (times[0], ranks[0]),  xytext = (times[0], 0.15 + ranks[0]))
@@ -103,8 +102,8 @@ def on_plot_hover(event):
 
 ranklists = getRankListsFromFiles("./europe/")
 
-#linedict = getLeaderboardPortion(0, 33)
-linedict = getPlayers(["dendi", "5up", "crystallis", "lasthero", "fishman"])
+linedict = getLeaderboardPortion(0, 20)
+#linedict = getPlayers(["dendi", "5up", "crystallis", "lasthero", "fishman"])
 
 drawLines(linedict)
 
@@ -123,8 +122,9 @@ plt.gcf().autofmt_xdate()
 #f, ax = plt.subplots(1)
 #ax.set_ylim(bottom=100)
 #plt.legend(loc='upper left')
-plt.show()
 
+#plt.show()
+mpld3.show()
 
 #plt.plot([10,9,8], [1, 2, 3])
 #plt.ylabel('Rank')
