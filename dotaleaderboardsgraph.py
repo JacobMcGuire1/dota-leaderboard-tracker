@@ -29,7 +29,7 @@ def getPlayerList(region):
             nametext = name.text
         if (rank is not None):
             ranktext = rank.text
-            if (ranktext is not ""):
+            if (ranktext != ""):
                 ranknum = int(ranktext)
         playerlist.append((ranknum, teamtext, nametext))
     return playerlist

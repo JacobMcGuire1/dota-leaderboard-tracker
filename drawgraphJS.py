@@ -20,6 +20,7 @@ plt.show()
 
 
 
+#Only gets players above rank 1000.
 def getPlayers(players):
     linedict = dict()
     lowerplayers = []
@@ -27,7 +28,7 @@ def getPlayers(players):
         lowerplayers.append(x.lower())
     players = lowerplayers
     for ranklist, time in ranklists:
-        matches = [x for x in ranklist if (x[2].lower() in players)]
+        matches = [x for x in ranklist if (x[2].lower() in players and x[0] <= 1000)]
         addPointsToDict(matches, time, linedict)
     return linedict
 
@@ -49,7 +50,7 @@ def addPointsToDict(ranklist, time, linedict):
         team = point[1].replace("$$", "")
         name = point[2].replace("$$", "")
         key = (team + name)
-        if (key in linedict and rank is not -1):
+        if (key in linedict and rank != -1):
             linedict[key].append((rank, time))
         else:
             linedict[key] = [(rank, time)]
@@ -71,13 +72,16 @@ def drawLines(linedict):
             if (len(rankpairs) > 1):
                 plt.annotate(str(ranks[-1]), xy = (times[-1], ranks[-1]),  xytext = (times[-1], 0.15 + ranks[-1]))
 
-def getRankListsFromFiles(pathtoranklists):
+def getRankListsFromFiles(pathtoranklists, oldesttimestamp):
     ranklists = []
     for filename in os.listdir(pathtoranklists):
         if filename.endswith(".json"):
-            f = open(pathtoranklists + filename, "r")
-            ranklist = json.load(f)
-            ranklists.append((ranklist, filename[:-5]))
+            path = pathtoranklists + filename
+            lastmodified = os.path.getmtime(path)
+            if (lastmodified > oldesttimestamp):
+                f = open(path, "r")
+                ranklist = json.load(f)
+                ranklists.append((ranklist, filename[:-5]))
         else:
             continue
     return ranklists
@@ -100,11 +104,11 @@ def on_plot_hover(event):
             currentplayerannotation = plt.annotate(curve._label + ": " + str(math.floor(event.ydata + 0.5)), xy = (event.xdata, event.ydata))
             fig.canvas.draw()
 
-ranklists = getRankListsFromFiles("./europe/")
+ranklists = getRankListsFromFiles("./europe/", 1617391146)
 
-linedict = getLeaderboardPortion(0, 20)
+#linedict = getLeaderboardPortion(0, 20)
 #linedict = getPlayers(["dendi", "5up", "crystallis", "lasthero", "fishman"])
-
+linedict = getPlayers(["dendi", "gorgc", "watson;,.'"])
 drawLines(linedict)
 
 
