@@ -2,10 +2,16 @@ CREATE TABLE timestamps (
     timestamp INTEGER NOT NULL PRIMARY KEY
 );
 
+CREATE TABLE regions (
+    region TEXT NOT NULL PRIMARY KEY
+);
+
 CREATE TABLE ranks (
     timestamp INTEGER NOT NULL,
+    region TEXT NOT NULL,
+    rank INTEGER NOT NULL,
     team TEXT,
     name TEXT,
-    rank INTEGER NOT NULL,
     FOREIGN KEY (timestamp) REFERENCES timestamps (timestamp) 
+    FOREIGN KEY (region) REFERENCES regions (region) 
 );
