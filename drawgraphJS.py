@@ -108,7 +108,7 @@ ranklists = getRankListsFromFiles("./europe/", 1617391146)
 
 #linedict = getLeaderboardPortion(0, 20)
 #linedict = getPlayers(["dendi", "5up", "crystallis", "lasthero", "fishman"])
-linedict = getPlayers(["dendi", "gorgc", "watson;,.'"])
+linedict = getPlayers(["dendi", "gorgc", "watson;,.'", "[T]SA", "Время в никуда"])
 drawLines(linedict)
 
 
@@ -122,6 +122,7 @@ fig.canvas.mpl_connect('motion_notify_event', on_plot_hover)
 #ax.xaxis.set_major_formatter(date_form)
 
 plt.gcf().autofmt_xdate()
+
 
 #f, ax = plt.subplots(1)
 #ax.set_ylim(bottom=100)

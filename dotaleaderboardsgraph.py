@@ -3,6 +3,7 @@ from requests_html import HTMLSession
 import json
 import time
 
+
 def getPlayerList(region):
     session = HTMLSession()
 

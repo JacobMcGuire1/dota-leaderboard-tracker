@@ -106,8 +106,8 @@ def on_plot_hover(event):
 
 ranklists = getRankListsFromFiles("./europe/", 1617391146)
 
-#linedict = getLeaderboardPortion(0, 33)
-linedict = getPlayers(["dendi", "gorgc", "watson;,.'"])
+linedict = getLeaderboardPortion(0, 33)
+#linedict = getPlayers(["dendi", "gorgc", "watson;,.'"])
 #linedict = getPlayers(["skiter", "v-tune",  "33"])
 
 drawLines(linedict)
