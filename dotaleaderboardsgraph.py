@@ -2,6 +2,7 @@ import requests
 from requests_html import HTMLSession
 import json
 import time
+import sqlite3
 
 
 def getPlayerList(region):
