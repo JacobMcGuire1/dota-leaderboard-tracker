@@ -1,0 +1,16 @@
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+1643142607
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+Traceback (most recent call last):
+  File "/home/jacob/scripts/dota-leaderboard-tracker/dotaleaderboardsgraph.py", line 53, in <module>
+    print(datetime.strftime('%a %b %d %H:%M:%S %Z %Y'))
+AttributeError: module 'datetime' has no attribute 'strftime'
+Tue Jan 25 22:12:25  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.

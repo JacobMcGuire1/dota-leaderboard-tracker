@@ -1,10 +1,11 @@
+from datetime import datetime
 import requests
 from requests_html import HTMLSession
 import json
 import time
 import sqlite3
 
-con = sqlite3.connect('ranks.db')
+con = sqlite3.connect('/home/jacob/scripts/dota-leaderboard-tracker/ranks.db')
 cur = con.cursor()
 
 def updateRanks(region):
@@ -24,6 +25,7 @@ def updateRanks(region):
     #playerlist = []
 
     for x in reversed(players):
+        foundarank = False
         team = x.find(".team_tag", first=True)
         name = x.find(".player_name", first=True)
         rank = x.find("td", first=True)
@@ -41,20 +43,17 @@ def updateRanks(region):
             if (ranktext != ""):
                 ranknum = int(ranktext)
         if ((not nametext == "") and (not ranktext == "")):
+            foundarank = True
             cur.execute("INSERT INTO ranks (timestamp, region, rank, team, name) VALUES (?, ? ,?, ?, ?)", (timestamp, region, ranktext, teamtext, nametext))
     
     con.commit()
+    if (foundarank):
+        print("Successfully collected at least one rank from region: "  + region + ".")
 
+print(datetime.now().strftime('%a %b %d %H:%M:%S %Z %Y'))
 updateRanks("europe")
-print("Completed Europe")
-time.sleep(1)
 updateRanks("americas")
-print("Completed Americas")
-time.sleep(1)
 updateRanks("se_asia")
-print("Completed SE Asia")
-time.sleep(1)
 updateRanks("china")
-print("Completed China")
 
 con.close()
