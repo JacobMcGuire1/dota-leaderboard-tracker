@@ -49,7 +49,9 @@ def updateRanks(region):
     con.commit()
     if (foundarank):
         print("Successfully collected at least one rank from region: "  + region + ".")
+    time.sleep(1)
 
+print()
 print(datetime.now().strftime('%a %b %d %H:%M:%S %Z %Y'))
 updateRanks("europe")
 updateRanks("americas")

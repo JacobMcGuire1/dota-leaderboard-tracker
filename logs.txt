@@ -14,3 +14,1302 @@ Tue Jan 25 22:12:25  2022
 Successfully collected at least one rank from region: europe.
 Successfully collected at least one rank from region: americas.
 Successfully collected at least one rank from region: china.
+Wed Jan 26 00:37:33  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+Wed Jan 26 00:39:51  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+Wed Jan 26 01:00:02  2022
+Wed Jan 26 02:00:02  2022
+Traceback (most recent call last):
+  File "/home/jacob/scripts/dota-leaderboard-tracker/dotaleaderboardsgraph.py", line 55, in <module>
+    updateRanks("europe")
+  File "/home/jacob/scripts/dota-leaderboard-tracker/dotaleaderboardsgraph.py", line 18, in updateRanks
+    cur.execute("INSERT INTO timestamps VALUES (?)", (timestamp,))
+sqlite3.OperationalError: database is locked
+Wed Jan 26 03:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Traceback (most recent call last):
+  File "/home/jacob/scripts/dota-leaderboard-tracker/dotaleaderboardsgraph.py", line 58, in <module>
+    updateRanks("china")
+  File "/home/jacob/scripts/dota-leaderboard-tracker/dotaleaderboardsgraph.py", line 18, in updateRanks
+    cur.execute("INSERT INTO timestamps VALUES (?)", (timestamp,))
+sqlite3.OperationalError: database is locked
+
+Wed Jan 26 03:14:17  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Jan 26 04:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+
+Wed Jan 26 05:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Jan 26 06:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Jan 26 07:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Jan 26 08:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: china.
+
+Wed Jan 26 09:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Jan 26 10:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Jan 26 11:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Jan 26 12:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Jan 26 13:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Jan 26 14:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Jan 26 15:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Jan 26 16:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Jan 26 17:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+
+Wed Jan 26 18:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Jan 26 19:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Jan 26 20:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Jan 26 21:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Jan 26 22:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Jan 26 23:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Jan 27 00:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Jan 27 01:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+
+Thu Jan 27 02:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Thu Jan 27 03:00:03  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Thu Jan 27 04:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+
+Thu Jan 27 05:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Jan 27 06:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Jan 27 07:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Jan 27 08:00:02  2022
+Successfully collected at least one rank from region: europe.
+
+Thu Jan 27 09:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Thu Jan 27 10:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Thu Jan 27 11:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Traceback (most recent call last):
+  File "/home/jacob/scripts/dota-leaderboard-tracker/dotaleaderboardsgraph.py", line 58, in <module>
+    updateRanks("se_asia")
+  File "/home/jacob/scripts/dota-leaderboard-tracker/dotaleaderboardsgraph.py", line 15, in updateRanks
+    r.html.render(1,"",scrolldown=0, sleep=1)
+  File "/home/jacob/.local/lib/python3.6/site-packages/requests_html.py", line 605, in render
+    raise MaxRetries("Unable to render the page. Try increasing timeout")
+requests_html.MaxRetries: Unable to render the page. Try increasing timeout
+
+Thu Jan 27 12:00:02  2022
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Jan 27 13:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Jan 27 14:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Jan 27 15:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Jan 27 16:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Jan 27 17:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+
+Thu Jan 27 18:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Jan 27 19:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Jan 27 20:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Thu Jan 27 21:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Jan 27 22:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+
+Thu Jan 27 23:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+
+Fri Jan 28 00:00:02  2022
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Fri Jan 28 01:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+
+Fri Jan 28 02:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Fri Jan 28 03:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Fri Jan 28 04:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Fri Jan 28 05:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Fri Jan 28 06:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Fri Jan 28 07:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Fri Jan 28 08:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Fri Jan 28 09:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Fri Jan 28 10:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Fri Jan 28 11:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Fri Jan 28 12:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Fri Jan 28 13:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: china.
+
+Fri Jan 28 14:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: china.
+
+Fri Jan 28 15:00:02  2022
+Traceback (most recent call last):
+  File "/home/jacob/scripts/dota-leaderboard-tracker/dotaleaderboardsgraph.py", line 56, in <module>
+    updateRanks("europe")
+  File "/home/jacob/scripts/dota-leaderboard-tracker/dotaleaderboardsgraph.py", line 15, in updateRanks
+    r.html.render(1,"",scrolldown=0, sleep=1)
+  File "/home/jacob/.local/lib/python3.6/site-packages/requests_html.py", line 605, in render
+    raise MaxRetries("Unable to render the page. Try increasing timeout")
+requests_html.MaxRetries: Unable to render the page. Try increasing timeout
+
+Fri Jan 28 16:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Fri Jan 28 17:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Fri Jan 28 18:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Fri Jan 28 19:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Fri Jan 28 20:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Fri Jan 28 21:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Fri Jan 28 22:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Fri Jan 28 23:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sat Jan 29 00:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Sat Jan 29 01:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sat Jan 29 02:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+
+Sat Jan 29 03:00:03  2022
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sat Jan 29 04:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sat Jan 29 05:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sat Jan 29 06:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Sat Jan 29 07:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sat Jan 29 08:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sat Jan 29 09:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sat Jan 29 10:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sat Jan 29 11:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Sat Jan 29 12:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sat Jan 29 13:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sat Jan 29 14:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sat Jan 29 15:00:01  2022
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sat Jan 29 16:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Sat Jan 29 17:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sat Jan 29 18:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sat Jan 29 19:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sat Jan 29 20:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sat Jan 29 21:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sat Jan 29 22:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sat Jan 29 23:00:02  2022
+Successfully collected at least one rank from region: china.
+
+Sun Jan 30 00:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sun Jan 30 01:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+
+Sun Jan 30 02:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Sun Jan 30 03:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+
+Sun Jan 30 04:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sun Jan 30 05:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sun Jan 30 06:00:01  2022
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sun Jan 30 07:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sun Jan 30 08:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sun Jan 30 09:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sun Jan 30 10:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: china.
+
+Sun Jan 30 11:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sun Jan 30 12:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sun Jan 30 13:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sun Jan 30 15:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sun Jan 30 16:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sun Jan 30 17:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sun Jan 30 18:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sun Jan 30 19:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sun Jan 30 20:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sun Jan 30 21:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sun Jan 30 22:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Sun Jan 30 23:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+
+Mon Jan 31 00:00:02  2022
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Mon Jan 31 01:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Mon Jan 31 02:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Mon Jan 31 03:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Mon Jan 31 04:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Mon Jan 31 05:00:02  2022
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Mon Jan 31 06:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Mon Jan 31 07:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Mon Jan 31 08:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Mon Jan 31 09:00:02  2022
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Mon Jan 31 10:00:04  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Mon Jan 31 11:00:04  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Mon Jan 31 12:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Mon Jan 31 13:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Mon Jan 31 14:00:01  2022
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Mon Jan 31 15:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: china.
+
+Mon Jan 31 16:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Mon Jan 31 17:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Mon Jan 31 18:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+
+Mon Jan 31 19:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Mon Jan 31 20:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Mon Jan 31 21:00:02  2022
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Mon Jan 31 22:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Mon Jan 31 23:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Tue Feb 01 00:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Tue Feb 01 01:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Tue Feb 01 02:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Tue Feb 01 03:00:02  2022
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Tue Feb 01 04:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Tue Feb 01 05:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Tue Feb 01 06:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Tue Feb 01 07:00:02  2022
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Tue Feb 01 08:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Tue Feb 01 09:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: se_asia.
+
+Tue Feb 01 10:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Tue Feb 01 11:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Tue Feb 01 12:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+
+Tue Feb 01 13:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Tue Feb 01 14:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Tue Feb 01 15:00:02  2022
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Tue Feb 01 16:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Tue Feb 01 17:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Tue Feb 01 18:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Tue Feb 01 19:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+
+Tue Feb 01 20:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Tue Feb 01 21:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Tue Feb 01 22:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Tue Feb 01 23:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Feb 02 00:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Wed Feb 02 01:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Feb 02 02:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Feb 02 03:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Feb 02 04:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Feb 02 05:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Feb 02 06:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+
+Wed Feb 02 07:00:02  2022
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Feb 02 08:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Feb 02 09:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Feb 02 10:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: china.
+
+Wed Feb 02 11:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Feb 02 12:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Feb 02 13:00:03  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+
+Wed Feb 02 14:00:02  2022
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Feb 02 15:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Feb 02 16:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Feb 02 17:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Feb 02 18:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Feb 02 19:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Feb 02 20:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Wed Feb 02 21:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Wed Feb 02 22:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+
+Wed Feb 02 23:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Traceback (most recent call last):
+  File "/home/jacob/scripts/dota-leaderboard-tracker/dotaleaderboardsgraph.py", line 59, in <module>
+    updateRanks("china")
+  File "/home/jacob/scripts/dota-leaderboard-tracker/dotaleaderboardsgraph.py", line 15, in updateRanks
+    r.html.render(1,"",scrolldown=0, sleep=1)
+  File "/home/jacob/.local/lib/python3.6/site-packages/requests_html.py", line 605, in render
+    raise MaxRetries("Unable to render the page. Try increasing timeout")
+requests_html.MaxRetries: Unable to render the page. Try increasing timeout
+
+Thu Feb 03 00:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Feb 03 01:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Feb 03 02:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+
+Thu Feb 03 03:00:01  2022
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Feb 03 04:00:01  2022
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Feb 03 05:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Feb 03 06:00:01  2022
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Feb 03 07:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Feb 03 08:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Feb 03 09:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Feb 03 10:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Feb 03 11:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Feb 03 12:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Feb 03 13:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Feb 03 14:00:03  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Thu Feb 03 15:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Feb 03 16:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Feb 03 17:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Feb 03 18:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Thu Feb 03 19:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Thu Feb 03 20:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Feb 03 21:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Thu Feb 03 22:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Thu Feb 03 23:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Fri Feb 04 00:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Fri Feb 04 01:00:02  2022
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Fri Feb 04 02:00:02  2022
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Fri Feb 04 03:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+
+Fri Feb 04 04:00:02  2022
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Fri Feb 04 05:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Fri Feb 04 06:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Fri Feb 04 07:00:02  2022
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Fri Feb 04 08:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Fri Feb 04 09:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Fri Feb 04 10:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Fri Feb 04 11:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Fri Feb 04 12:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Fri Feb 04 13:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: china.
+
+Fri Feb 04 14:00:02  2022
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Fri Feb 04 15:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+
+Fri Feb 04 16:00:02  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
+
+Fri Feb 04 17:00:01  2022
+Successfully collected at least one rank from region: europe.
+Successfully collected at least one rank from region: americas.
+Successfully collected at least one rank from region: se_asia.
+Successfully collected at least one rank from region: china.
